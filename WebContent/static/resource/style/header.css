@@ -1,0 +1,12 @@
+#header_notice {
+  width: 1300px;
+  margin: auto;
+  display: flex;
+  color: var(--color-black);
+  -webkit-animation: opacity 1s linear;
+  background-color: lightblue;
+}
+.header_notice_list {
+  display: flex;
+  justify-content: space-between;
+}

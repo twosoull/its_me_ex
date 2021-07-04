@@ -1,0 +1,67 @@
+.home_container {
+  width: 1300px;
+  margin: auto;
+  display: flex;
+  color: var(--color-black);
+  -webkit-animation: opacity 1s linear;
+}
+/* box1 */
+.home_info {
+  width: 650px;
+}
+
+.home_info_phone {
+  font-size: 40px;
+  margin: 0px;
+}
+.home_info_name {
+  font-size: 30px;
+  margin: 20px 0px 0px 0px;
+}
+
+.home_said {
+  margin: 200px 0px 0px 210px;
+  width: 400px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+.home_icons {
+  width: 50px;
+  text-align: center;
+}
+
+.home_icons_git {
+  font-size: 50px;
+}
+
+.home_icons_git:hover {
+  color: #772f9d;
+}
+.tag_github {
+  color: var(--color-black);
+  text-decoration: none;
+}
+/* box2 */
+.home_me {
+  background-color: #f2f2f2;
+  width: 650px;
+  animation: opacity 0.1s linear;
+}
+.home_photo {
+  width: 300px;
+  height: 400px;
+
+  margin: 150px 0px 0px 50px;
+  border-radius: 20px;
+}
+
+/* animation */
+@-webkit-keyframes opacity {
+  from {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 100%;
+  }
+}
